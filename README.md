@@ -43,7 +43,7 @@ npm install
 3. Configure Firebase
 - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
 - Generate a service account key
-- rename the file to firebase-credentials.json and put it in the main folder
+- rename the secret account key to firebase-credentials.json and move it to the project root folder
 - Download the JSON credentials
 
 4. Set up environment variables
