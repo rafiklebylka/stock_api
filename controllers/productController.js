@@ -42,10 +42,26 @@ class ProductController {
 
     async listProducts(req, res) {
         try {
-            const products = await ProductModel.getAllProducts();
-            res.json(products);
+            const { 
+                page = 1, 
+                limit = 10, 
+                sortBy, 
+                sortOrder,
+                ...filters
+            } = req.query;
+      
+            const result = await ProductModel.getAllProducts({
+                page: parseInt(page),
+                limit: parseInt(limit),
+                sortBy,
+                sortOrder,
+                filters
+            });
+      
+            res.json(result);
         } catch (error) {
-            res.status(500).json({ error: error.message });
+            // Delegate to error handling middleware
+            throw error;
         }
     }
 }
