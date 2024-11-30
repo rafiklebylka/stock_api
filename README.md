@@ -60,6 +60,15 @@ FIREBASE_CLIENT_EMAIL=CLIENT_EMAIL
 PORT=3000
 ```
 
+5. Set up .gitignore
+Create a `.gitignore` file in the project root:
+```
+node_modules/
+.env
+firebase-credentials.json
+```
+
+
 ## 🖥️ Running the Application
 
 ### Development Mode
