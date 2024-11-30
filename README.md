@@ -49,7 +49,6 @@ npm install
 4. Set up environment variables
 Create a `.env` file in the project root:
 ```
-PORT=3000
 FIREBASE_API_KEY=API_KEY
 FIREBASE_AUTH_DOMAIN=AUTH_DOMAIN
 FIREBASE_PROJECT_ID=PROJECT_ID
