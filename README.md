@@ -174,4 +174,3 @@ Project Link: [https://github.com/rafiklebylka/stock_api](https://github.com/raf
 - Express.js
 - Firebase
 - Node.js Community
-```
