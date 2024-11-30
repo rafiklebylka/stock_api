@@ -31,8 +31,8 @@ Universal Inventory System is a robust, scalable inventory management solution b
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/universal-inventory-system.git
-cd universal-inventory-system
+git clone https://github.com/rafiklebylka/stock_api
+cd stock_api
 ```
 
 2. Install dependencies
